@@ -1,9 +1,3 @@
-# ============================================================
-# SAPPHIRE BANK - ALL-IN-ONE APPLICATION
-# Backend + Frontend in a Single Script
-# Run: python sapphire_app.py
-# ============================================================
-
 from fastapi import FastAPI, HTTPException, Depends, status, UploadFile, File, Request, Form
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi.middleware.cors import CORSMiddleware
